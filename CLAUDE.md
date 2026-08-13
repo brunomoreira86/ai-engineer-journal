@@ -50,6 +50,8 @@ ai-engineer-book/
 
 Every chapter must contain at least one real failure, surprise, or debugging story — never a clean, hindsight-polished tutorial. The narrator voice is first-person, plain English, written as the learning happens. Chapters should not be written until the corresponding code has actually been built and tested (this is enforced by the four-beat template and the chapter Status checklist).
 
+The Build beat must include an explicit numbered step-by-step sub-section, not just prose narrative — the reader should be able to follow the steps and reproduce what was built, not just read the story of it. See `00_meta/BOOK_BIBLE.md` for the full chapter template.
+
 ## What "done" looks like per chapter
 
 Each chapter file in `01_manuscript/` ends with a status checklist:
