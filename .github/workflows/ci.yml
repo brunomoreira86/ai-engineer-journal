@@ -20,5 +20,19 @@ jobs:
             exit 1
           fi
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dev dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Test + type-check ch04 exercise (signup_report)
+        working-directory: 02_exercises/part1
+        run: |
+          python -m pytest
+          python -m mypy signup_report/
+
       # Placeholder: once 03_projects/<project>/src has real code (Python/TS),
       # add matching lint/type-check/test steps here, per project.

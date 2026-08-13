@@ -1,4 +1,4 @@
-# Exercises — Part 6
+# Exercises: Part 6
 
 Each exercise file follows this template:
 

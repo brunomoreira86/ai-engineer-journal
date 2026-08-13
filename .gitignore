@@ -4,4 +4,6 @@ __pycache__/
 .env
 .venv/
 node_modules/
+.pytest_cache/
+.mypy_cache/
 07_career_prep/JOB_SEARCH_TRACKER.csv
