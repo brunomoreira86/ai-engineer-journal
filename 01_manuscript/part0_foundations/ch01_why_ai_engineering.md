@@ -67,4 +67,4 @@ The hands-on work for this chapter had two parts: writing the personal "why" you
 - [x] Concept researched and verified
 - [x] Build completed and tested
 - [x] Debrief written
-- [ ] Chapter reviewed
+- [X] Chapter reviewed

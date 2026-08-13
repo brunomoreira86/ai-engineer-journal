@@ -2,15 +2,15 @@
 
 ## The Story
 
-Before I'd written a single real chapter, this repo already had a mess in it. Two folders held identical copies of the same three files: the README, the roadmap, the book outline. Nobody had decided that on purpose, it just happened, the way clutter always happens: one file created here, another copy scaffolded there, and nobody circled back to check whether they still agreed with each other. There was no version control either. No history, no way to see what changed or when, no safety net if I broke something.
+Before I'd written a single real chapter, this repo already had a mess in it. Two folders held identical copies of the same three files: the README, the roadmap, the book outline. I haven't decided that on purpose, it just happened, the way clutter always happens: one file created here, another copy scaffolded there, and I did not circled back to check whether I had everything in the right place. There was no version control either. No history, no way to see what changed or when, no safety net if I broke something.
 
 That's a messy garage. It still technically works. You can find the wrench if you dig long enough. But a senior engineer doesn't tolerate that for long, not because of vanity, but because a messy garage costs you later, at the exact moment you can least afford it: mid-debug, mid-deadline, mid-interview when someone asks to see your work.
 
-So before writing anything else, I audited the structure, collapsed the duplication, initialized git, and pushed the first real commit. That felt like the whole job. It wasn't.
+So before writing anything else, I cleaned that up: audited the structure, collapsed the duplication, initialized git, and pushed a first real commit. I assumed that was the actual work of this chapter.
 
-The actual lesson showed up after I wired up CI. I'd written a small GitHub Actions check to enforce a style rule from the book bible (no em dashes anywhere in the manuscript, they read as AI-generated). I ran it locally against Chapter 1, it passed, I pushed. CI failed. Not on Chapter 1, on twenty-three chapters I hadn't even written yet, chapters that were nothing but placeholder scaffolding, and every single placeholder's instructional text had an em dash baked into the template I'd generated at the start of this whole project.
+What I didn't expect came right after, once I had CI wired up. I set up a small GitHub Actions check for a rule from the book bible, no em dashes anywhere in the manuscript, since they read as AI-generated. I tested it locally against Chapter 1 first, because that was the only chapter that actually existed yet, and it passed clean. When I pushed, CI failed anyway, and not on Chapter 1 at all. Twenty-three other chapters failed the check, every one of them still nothing but placeholder scaffolding I hadn't written a single real word of, because the instructional template text sitting in those files since the very start of this project had an em dash baked into it.
 
-I hadn't looked at those files in weeks. I didn't know they were wrong until a machine told me, on the first push, automatically, before a single reader ever saw it. That's the entire point of CI, and it's a different kind of lesson than "keep your folders tidy." A clean workshop is something you maintain by discipline. A CI pipeline catches the things your discipline misses.
+I hadn't opened most of those files since creating them weeks earlier. I only found out they were wrong because a machine checked all twenty-three at once, automatically, on the first real push, before anyone reading this book ever would have. Keeping folders tidy is something you do by paying attention to them. Nobody was going to catch this by being careful, because nobody was looking at those files at all. That's what the check was actually for.
 
 ## The Concept
 
