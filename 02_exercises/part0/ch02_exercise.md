@@ -1,4 +1,4 @@
-# Chapter 2 Exercise — Repo Base Camp Setup
+# Chapter 2 Exercise: Repo Base Camp Setup
 
 - **Objective:** Get a project repo to a real engineering baseline: version controlled, documented, licensed, and checked automatically on every push.
 - **Prerequisites:** Chapter 1's exercise (know what you're building and why).
