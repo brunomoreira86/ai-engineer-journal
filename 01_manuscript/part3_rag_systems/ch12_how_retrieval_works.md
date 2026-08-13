@@ -1,7 +1,7 @@
 # ch12_how_retrieval_works
 
 ## The Story
-_(Real-life scenario or documented incident goes here — write after you've lived it or researched it.)_
+_(Real-life scenario or documented incident goes here, write after you've lived it or researched it.)_
 
 ## The Concept
 _(Plain-language explanation of the topic.)_
