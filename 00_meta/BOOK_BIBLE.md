@@ -5,6 +5,7 @@
 - **Reader:** someone with dev/business background wanting a production AI Engineer job, not a research scientist role
 - **Tone rule:** every chapter must contain one real failure or surprise — no chapter should read like a clean tutorial
 - **Recurring thread:** using AskDila as the live testbed for every project where possible
+- **Style rule:** no em dashes ("—") anywhere in the manuscript. It reads as AI-generated. Use commas, colons, parentheses, or split into two sentences instead.
 
 ## Chapter template: The Story / The Concept / The Build / The Debrief
 
